@@ -22,6 +22,8 @@
 - Can only read course contents which he/she is enrolled in.
 - Has student dashboard where he/she can see all the enrolled courses.
 - Can contact the admin for informations.
+![studentP](https://github.com/majda-dev/e-learning-website/assets/112486265/dde47e88-3f51-4d4a-8379-0097dbcf6b1f)
+![StudentC](https://github.com/majda-dev/e-learning-website/assets/112486265/1943b6c9-fece-4d46-8b3f-b65391a75111)
 
 ## Guest/Visitor
 - Can view listing of all the courses.
