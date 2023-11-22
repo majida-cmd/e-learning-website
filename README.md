@@ -9,6 +9,7 @@
 # E-learning-platform-in-laravel
 - This website is an e-learning platform, developed with Laravel 9. The website offers a comprehensive learning experience with three distinct user roles: visitors, administrators, and students.
 - Every user has different and restricted (Admin and student) view.
+**Here is a glimpse of how the platform looks like** :point_down:
 
 ## Admin
 - Can perform CRUD operations on users and assign roles to them.
