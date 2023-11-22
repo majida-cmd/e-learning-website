@@ -14,7 +14,7 @@
                     <input type="text" value="{{ $module->nom }}"  class="box"  readonly />
                 </div>
                 <div id="input-field">
-                    <label>Tarif</label>
+                    <label>Price</label>
                     @if ($module->tarifs->first()->montant == 0)
                         <input type="hidden" name="id_tarif" value="{{ $module->tarifs->first()->id }}" />
                         <input type="text" value="Formation Gratuite"  class="box" readonly />
@@ -23,6 +23,6 @@
                         <input type="text"  class="box" value="{{ $module->tarifs->first()->montant }} DH" readonly />
                     @endif
                 </div>
-                    <button type="submit" class="btn">Inscrire</button>
+                    <button type="submit" class="btn">Register</button>
         </section>
     @endsection

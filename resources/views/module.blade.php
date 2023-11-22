@@ -1,15 +1,15 @@
 @extends('master2D')
 @section('content')
     <section id="course" class="hidden">
-        <h1>Commencez Votre Cours</h1>
-        <p>Choisissez la leçon que vous souhaitez commencer à apprendre</p>
+        <h1>Start Your Course</h1>
+        <p>Choose the lesson you want to start learning</p>
 
         <div id="buttons" class="hidden">
             <button class="yellow" onclick="filterObjects('all')">show All</button>
             <button class="yellow" onclick="filterObjects('free')">Free</button>
             <button class="yellow" onclick="filterObjects('premium')">Premium</button>
         </div>
-        
+
         <div class="course-boxx objects">
             @foreach ($modules as $module)
                 <div class="courses free show">
@@ -23,7 +23,7 @@
                             @foreach ($module->tarifs as $tarif)
                                 @if ($module->tarifs->first()->montant == 0)
                                     <div class="cost">
-                                        Gratuit
+                                        Free
                                     </div>
                                 @else
                                     <div class="cost">

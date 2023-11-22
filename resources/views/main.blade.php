@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arti formation | Admins</title>
+    <title>Arti Training | Admins</title>
     <script src="https://kit.fontawesome.com/17ee66302b.js" crossorigin="anonymous"></script>
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"

@@ -15,12 +15,12 @@
             <form action="{{ route('etudiant.storeCF', ['id' => $encryptedId]) }}" method="post">
                 @csrf
                 <h3>get in touch</h3>
-                <input type="text" placeholder="Nom complet" name="name" required maxlength="50" class="box">
+                <input type="text" placeholder="Full name" name="name" required maxlength="50" class="box">
                 <input type="email" placeholder="Email" name="email" required maxlength="50" class="box">
-                <input type="number" placeholder="Telephone" name="phone" required maxlength="50" class="box">
-                <input type="text" placeholder="Sujet" name="subject" required maxlength="50" class="box">
+                <input type="number" placeholder="Phone" name="phone" required maxlength="50" class="box">
+                <input type="text" placeholder="Subject" name="subject" required maxlength="50" class="box">
                 <textarea name="message" class="box" placeholder="Message" required maxlength="1000" cols="30" rows="10"></textarea>
-                <button type="submit" value="send message" class="inline-btn1" name="submit">Envoyer</button>
+                <button type="submit" value="send message" class="inline-btn1" name="submit">Send</button>
             </form>
 
         </div>

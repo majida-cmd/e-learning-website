@@ -49,7 +49,7 @@
                 <h4>let s Connect</h4>
                 <p>Integre at lorem aget diam facilisis lacinia ac id messa.</p>
                 <div class="form-col hidden">
-                    <input type="text" placeholder="Nom complet" name="name" id="name" value="{{ old('name') }}">
+                    <input type="text" placeholder="Full name" name="name" id="name" value="{{ old('name') }}">
                     @if ($errors->has('name'))
                         <span class="text-danger">{{ $errors->first('name') }}</span>
                     @endif
@@ -62,14 +62,14 @@
 
                 </div>
                 <div class="form-col hidden">
-                    <input type="text" placeholder="Telephone" name="phone" id="" value="{{ old('phone') }}">
+                    <input type="text" placeholder="Phone" name="phone" id="" value="{{ old('phone') }}">
                     @if ($errors->has('phone'))
                         <span class="text-danger">{{ $errors->first('phone') }}</span>
                     @endif
                 </div>
 
                 <div class="form-col hidden">
-                    <input type="text" placeholder="Sujet" name="subject" id="" value="{{ old('subject') }}">
+                    <input type="text" placeholder="Subject" name="subject" id="" value="{{ old('subject') }}">
                     @if ($errors->has('subject'))
                         <span class="text-danger">{{ $errors->first('subject') }}</span>
                     @endif
@@ -83,7 +83,7 @@
                 </div>
                 <div class="form-col hidden">
                     <div class="form-group text-center">
-                        <button class="btn btn-success btn-submit">Envoyer</button>
+                        <button class="btn btn-success btn-submit">Send</button>
                     </div>
                 </div>
             </div>

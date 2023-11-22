@@ -2,7 +2,8 @@
 
 @section('content')
     <section class="user-profile">
-        <h1 class="heading">Informations Personnels</h1>
+        <h1 class="heading">
+            Personal Information</h1>
 
         <div class="info">
 
@@ -18,7 +19,7 @@
                                         <table class="table .table-active">
                                             <tr>
                                                 <th>
-                                                    <h4>Nom</h4>
+                                                    <h4>Last Name</h4>
                                                 </th>
                                                 <td>
                                                     <h4>:</h4>
@@ -28,7 +29,7 @@
                                                 </td>
                                             <tr>
                                                 <th>
-                                                    <h4>Prenom</h4>
+                                                    <h4>First name</h4>
                                                 </th>
                                                 <td>
                                                     <h4>:</h4>
@@ -61,7 +62,7 @@
                                             </tr>
                                             <tr>
                                                 <th>
-                                                    <h4>Genre</h4>
+                                                    <h4>Gender</h4>
                                                 </th>
                                                 <td>
                                                     <h4>:</h4>
@@ -72,7 +73,8 @@
                                             </tr>
                                             <tr>
                                                 <th>
-                                                    <h4> Date de Naissance</h4>
+                                                    <h4>
+                                                        Date of birth</h4>
                                                 </th>
                                                 <td>
                                                     <h4>:</h4>
@@ -83,7 +85,7 @@
                                             </tr>
                                             <tr>
                                                 <th>
-                                                    <h4>Telephone</h4>
+                                                    <h4>Phone number</h4>
                                                 </th>
                                                 <td>
                                                     <h4>:</h4>

@@ -32,7 +32,7 @@
                         <img class="brand" src="/assets/img/logo/logo1.png" alt="">
                     </a>
                 </div>
-                    <h4>Welcome to ARTI Formation! 👋</h4>
+                    <h4>Welcome to ARTI Training! 👋</h4>
         <form action="{{ route('login.authenticate') }}" method="POST" class="login">
             @csrf
             <div class="input-group">
@@ -50,7 +50,7 @@
                 </div>
                 </div>
                 <div class="btn">
-                    <button class="blue" type="submit">se connecter</button>
+                    <button class="blue" type="submit">Log in</button>
                 </div>
         </form>
         </div>

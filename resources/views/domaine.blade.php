@@ -3,13 +3,13 @@
 @section('content')
     <section id="about-home">
         <div class="bounce">
-        <h2 data-text="Domaines">Domaines</h2>
+        <h2 data-text="Domaines">Fields</h2>
         </div>
     </section>
 
     <section id="course" class="hidden">
-        <h1>Nos domaines populaires</h1>
-        <p>Sélectionnez le domaine que vous souhaitez étudier</p>
+        <h1>Our popular fields</h1>
+        <p>Select the field you want to study</p>
 
         <div class="course-box objects">
             @foreach($domaines as $domaine)
