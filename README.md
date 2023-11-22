@@ -2,7 +2,7 @@
   <img
     src="https://github.com/majda-dev/e-learning-website/blob/main/public/images/laravel.png?raw=true"
     alt="laravel's custom image"
-    style="width: 100; height: auto;"
+    style="width: 25; height: auto;"
   />
 </p>
 
