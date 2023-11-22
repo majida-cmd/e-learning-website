@@ -3,7 +3,7 @@
 @section('content')
     <section class="user-profile">
         <h1 class="heading">
-            Personal Information</h1>
+            Personal Informations</h1>
 
         <div class="info">
 

@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="courses cours">
-        <h1 class="heading"> courses</h1>
+        <h1 class="heading">My courses</h1>
         <div class="box-container">
             @foreach ($modules as $module)
                 <div class="box">

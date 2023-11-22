@@ -5,7 +5,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>Liste des etudiants</h1>
+                            <h1>Students List</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
@@ -22,8 +22,8 @@
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <a class="btn btn-success" href="{{ route('etudiants.create') }}"> Ajouter un
-                                        étudiant</a>
+                                    <a class="btn btn-success" href="{{ route('etudiants.create') }}"> Add a
+                                        student</a>
                                 </div>
                                 @if ($message = Session::get('success'))
                                     <div class="card-header">
@@ -35,12 +35,12 @@
                                         <thead>
                                             <tr>
                                                 <th>Photo</th>
-                                                <th>Nom</th>
-                                                <th>Prenom</th>
+                                                <th>Last name</th>
+                                                <th>First name</th>
                                                 <th>Email</th>
-                                                <th>Genre</th>
-                                                <th>Date naissance</th>
-                                                <th>Telephone</th>
+                                                <th>Gender</th>
+                                                <th>Date of birth</th>
+                                                <th>Phone number</th>
                                                 <th>Whatsapp</th>
                                                 <th>Action</th>
                                             </tr>
