@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/majda-dev/e-learning-website/blob/main/public/images/laravel.png?raw=true" alt="laravel's custom image"/>
+</p>
+
 # E-learning-platform-in-laravel
 - This website is an e-learning platform, developed with Laravel 9. The website offers a comprehensive learning experience with three distinct user roles: visitors, administrators, and students.
 - Every user has different and restricted (Admin and student) view.
